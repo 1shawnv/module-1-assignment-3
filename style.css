@@ -1,0 +1,119 @@
+.row {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+nav .title {
+    color: white;
+    /* margin-right: 1220px; */
+    margin-right: 24vw;
+    margin-left: 2vw;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav p {
+    margin: 8px 16px;
+
+}
+
+.hero {
+    background-image: url("img/theater-image-background.jpg");
+    height: 500px;
+    width: 100%;
+    object-fit: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.hero h2 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 20px 250px;
+    
+}
+
+section .show {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid grey;
+}
+
+section h3 {
+    font-weight: normal;
+    background-color: lightgrey;
+    padding: 4px 20px;
+    border: 2px solid grey;
+}
+
+section img {
+    margin: 0px 30px 0px 10px;
+    height: 150px;
+}
+
+section h4,
+section p {
+    padding: 0;
+    margin: 0px 0px 8px 0px;
+}
+
+section button {
+    margin-left: auto;
+    align-self: flex-end;
+    margin-left: 170px;
+    background-color: rgb(245, 213, 31);
+    color: white;
+    padding: 8px;
+    border: .5px solid grey;
+    border-radius: 2px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 70px;
+}
+
+footer .col {
+    margin: 0px 40px;
+    justify-content: flex-start;
+}
